@@ -1,7 +1,7 @@
 
 # Prompt user with a message, and return input
 def get_input(msg)
-  puts '~> ' + msg + ':'
+  puts "~> #{msg} :"
   return gets.chomp
 end
 
